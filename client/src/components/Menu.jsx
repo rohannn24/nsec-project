@@ -34,9 +34,10 @@ const Wrapper = styled.div`
 const Logo = styled.div`
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 20px;
   font-weight: bold;
   margin-bottom: 25px;
+  font-size: 22px;
 `;
 
 const Img = styled.img`
@@ -91,7 +92,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src={LamaTube} />
-            LamaTube
+            NsecTube
           </Logo>
         </Link>
         <Item>
