@@ -92,7 +92,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src={LamaTube} />
-            NsecTube
+            NSEC Tube
           </Logo>
         </Link>
         <Item>
@@ -138,7 +138,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
             <Hr />
           </>
         }
-        <Title>BEST OF LAMATUBE</Title>
+        <Title>BEST OF NSECTUBE</Title>
         <Item>
           <LibraryMusicOutlinedIcon />
           Music
