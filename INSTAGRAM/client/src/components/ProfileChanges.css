@@ -1,0 +1,100 @@
+.full-changes-form{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.767);
+    top:  0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.changes-card{
+    width: 60%;
+    background-color: rgb(24, 23, 23);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.changes-card>form, .changes-card>form>input{
+    background-color: transparent;
+}
+.wrap-username{
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+}
+.changes-card>form input{
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.wrap-username>input{
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: transparent;
+    width: 100%;
+}
+.changes-card>form textarea{
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+.changes-card>form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+}
+.changes-card>h3{
+    background-color: transparent;
+}
+.changes-card>form>input:last-child{
+    background-color: green;
+}
+.error-username{
+    background-color: transparent;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.available-username{
+    background-color: transparent;
+    color: rgb(51, 255, 0);
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.error-cross{
+    color: black;
+    border-radius: 100%;
+}
+.available-check{
+    color: black;
+    background-color: green;
+    font-weight: 700;
+    border-radius: 100%;
+    padding: 2px 6px;
+}
+.available-check>i{
+    color: black;
+    background-color: green;
+    border-radius: 100%;
+    padding: 1px ;
+}
+.error-cross>i{
+    color: red;
+    background-color: transparent;
+    border-radius: 100%;
+    font-size: 14px;
+}

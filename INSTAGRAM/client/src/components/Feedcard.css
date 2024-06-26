@@ -1,0 +1,66 @@
+.full-feed-card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feed-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.fc-user-detail{
+    display: flex;
+    gap: 10px;
+}
+.fc-img-ctrl{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto 0;
+}
+.fc-img-ctrl>img{
+    width: 100%;
+    height: 100%;
+}
+.fc-user-info{
+    font-size: 12px;
+    margin: auto 0;
+}
+.three-dots{
+    display: flex;
+    gap: 4px;
+}
+.dot{
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    margin: auto 0;
+}
+.feed-image{
+    display: flex;
+    margin: 0 auto;
+}
+.feed-action{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.left-three,.right-one{
+    font-size: 28px;
+    display: flex;
+    gap: 30px;
+}
+.full-feed-card>form>input{
+    background-color: transparent;
+    border: 0;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px 0;
+}
+.full-feed-card>form>input:focus{
+    outline: 0;
+}

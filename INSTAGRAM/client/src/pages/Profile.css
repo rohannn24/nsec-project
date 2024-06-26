@@ -1,0 +1,74 @@
+.profile-side{
+    margin-left: 20rem;
+    width: calc(100vw - 21rem);
+}
+.profile-content-sec{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.pcs-first{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+.pcs-img-ctrl{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: auto 0;
+}
+.pcs-img-ctrl>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pcs-content-ctrl{
+    margin: auto 0;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pcs-tag{
+    color: rgba(255, 255, 255, 0.37);
+}
+.pcs-follow-details{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.pcs-hr{
+    border: 1px solid rgba(255, 255, 255, 0.192);
+}
+.pcs-second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.img-box{
+    width: 310px;
+    height: 310px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+}
+.edit{
+    margin: auto 0;
+    background-color: rgb(75, 75, 75);
+    padding: 3px 10px;
+    cursor: pointer;
+    user-select: none;
+}

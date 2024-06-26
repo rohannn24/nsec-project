@@ -1,0 +1,114 @@
+.uploading-popup-card{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.uploading-popup-card2{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.card-of-upload{
+    padding: 50px 200px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-of-upload>form:first-child{
+    display: none;
+}
+.card-of-upload>form:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: transparent;
+    gap: 10px;
+}
+.card-of-upload>form:last-child>input{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.181);
+}
+.card-of-upload>form:last-child>input:last-child{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: green;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.181);
+}
+.card-of-upload>form:last-child>textarea{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.181);
+}
+.close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: transparent;
+    font-size: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+.upload-box{
+    width: fit-content;
+    background-color: blue;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+    margin: 0 auto;
+}
+.upload-heading{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    user-select: none;
+    text-align: center;
+}
+.upload-heading>p:last-child{
+    background-color: transparent;
+    font-size: 30px;
+}
+.upload-heading>p:first-child{
+    text-align: center;
+    font-size: 80px;
+    background-color: transparent;
+}
+.image-preview{
+    background-color: transparent;
+}
+.image-preview>img{
+    display: block;
+    margin: 0 auto;
+}
+.Toastify__toast-body{
+    background-color: transparent;
+}
+.Toastify__toast-body>div{
+    background-color: transparent;
+}

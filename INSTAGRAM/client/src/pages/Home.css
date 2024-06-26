@@ -1,0 +1,61 @@
+.full-feed-page{
+    display: flex;
+    height: 100vh;
+    margin-left: 20rem;
+    width: calc( 100vw - 20.938rem);
+    justify-content: center;
+}
+.right-feed-section{
+    width: 55vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+.rfs-content-area{
+    display: flex;
+    height: 100vh;
+}
+.rfsca-stories{
+    overflow: auto;
+    padding: 30px 10px;
+    display: flex;
+    gap: 20px;
+}
+.rfsca-stories::-webkit-scrollbar{
+    display: none;
+}
+.feed-section{
+    width: 60%;
+}
+.rfs-profile-section{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.user-name{
+    color: rgb(116, 116, 116);
+}
+.rfs-profile-section-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.rfs-heading{
+    color: rgba(255, 255, 255, 0.635);
+    font-weight: 700;
+    font-size: 14px;
+}
+.rfs-profile-section-heading>a{
+    font-size: 14px;
+    font-weight: 700;
+}
+.rfs-profile-section-suggestions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rfsca-feed-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

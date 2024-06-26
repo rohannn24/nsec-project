@@ -1,0 +1,40 @@
+.left-nav{
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(255, 255, 255, 0.153);
+    width: 20.938rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.upper-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.upper-sec>img{
+    filter: grayscale(1) invert(1);
+    background-color: transparent;
+    width: 105px;
+}
+.side-nav-list{
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.snl-items{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.snl-items>i{
+    display: flex;
+    margin: auto 0;
+}
+
